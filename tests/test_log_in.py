@@ -12,9 +12,9 @@ class TestLogIn:
         login = LogInPage(self.driver)
         login.open_page()
         login.click_entrar()
-        login.enter_email("batista@alunos.utfpr.edu.br")
+        login.enter_email("email_here")
         login.click_proximo()
-        login.enter_password("WLS2020qa")
+        login.enter_password("password_here")
         login.click_login()
 
         home = HomePage(self.driver)
